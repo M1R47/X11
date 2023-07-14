@@ -4,7 +4,7 @@ function fish_prompt
   end
 
   set_color blue
-  printf (basename (pwd)/)
+  printf (basename (uname))
   set_color normal
 
   set_color blue
